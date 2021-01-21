@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/salomegobbi/Desktop/morse/build",
+  "command": "/usr/bin/clang++  -I/Users/salomegobbi/Desktop/morse/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/morse.dir/main.cpp.o -c /Users/salomegobbi/Desktop/morse/main.cpp",
+  "file": "/Users/salomegobbi/Desktop/morse/main.cpp"
+},
+{
+  "directory": "/Users/salomegobbi/Desktop/morse/build",
+  "command": "/usr/bin/clang++  -I/Users/salomegobbi/Desktop/morse/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/morse.dir/src/morse.cpp.o -c /Users/salomegobbi/Desktop/morse/src/morse.cpp",
+  "file": "/Users/salomegobbi/Desktop/morse/src/morse.cpp"
+},
+{
+  "directory": "/Users/salomegobbi/Desktop/morse/build",
+  "command": "/usr/bin/clang++  -I/Users/salomegobbi/Desktop/morse/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/morse.dir/src/wave.cpp.o -c /Users/salomegobbi/Desktop/morse/src/wave.cpp",
+  "file": "/Users/salomegobbi/Desktop/morse/src/wave.cpp"
+}
+]

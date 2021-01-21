@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/salomegobbi/Desktop/morse/include/wave.h
+vector
+-
+string
+-
+
+/Users/salomegobbi/Desktop/morse/src/wave.cpp
+../include/wave.h
+/Users/salomegobbi/Desktop/morse/include/wave.h
+iostream
+-
+fstream
+-
+

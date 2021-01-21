@@ -1,0 +1,5 @@
+/Users/salomegobbi/desktop/morse/CMakeFiles/rebuild_cache.dir
+/Users/salomegobbi/desktop/morse/CMakeFiles/edit_cache.dir
+/Users/salomegobbi/desktop/morse/CMakeFiles/package_source.dir
+/Users/salomegobbi/desktop/morse/CMakeFiles/package.dir
+/Users/salomegobbi/desktop/morse/CMakeFiles/morse.dir
