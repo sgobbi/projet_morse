@@ -1,4 +1,4 @@
-#Morse Encoder/Decoder (C++)
+## Morse Encoder/Decoder (C++)
 
 Description
 
@@ -16,7 +16,7 @@ Lire un fichier .wav et décoder la chaîne Morse
 
 ⚠️ Limitation : le décodage depuis un fichier WAV fonctionne uniquement si la phrase contient au moins un espace. Pour un mot seul, ajoutez un espace à la fin.
 
-##Fonctionnalités
+### Fonctionnalités
 
 Texte → Morse → texte
 
@@ -25,3 +25,14 @@ Génération de fichier audio .wav
 Décodage depuis fichier audio .wav
 
 Vérification de la correspondance phrase initiale ↔ phrase décodée
+
+### Exemple
+```bash
+Entrez la phrase à coder : Bonjour le monde
+Nom du fichier WAV (ex: output.wav) : test.wav
+
+Phrase en Morse : -... --- -. .--- --- ..- .-.  .-.. .  -- --- -. -.. .
+Phrase décodée : Bonjour le monde
+Fichier WAV créé : test.wav
+Lecture du fichier WAV : -... --- -. .--- --- ..- .-.  .-.. .  -- --- -. -.. .
+
