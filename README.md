@@ -1,11 +1,27 @@
-# projet_morse
+#Morse Encoder/Decoder (C++)
 
-voici ce que fait le programme:
-- il vous demande une phrase a coder en morse
-- il vous demande le nom du fichier dans lequel vous voulez mettre votre audio (attention kil faut mettre nom.wav)
-- il l'encode d'abord en string de la forme "-- .." 
-- le decode en francais et teste l'egalite de la phrase du debut et de celle decodee
-- il l'encode ensuite en fichier wav
-- il lit le fichier wav et donne une string decodee
+Description
 
-ATTENTION: le decodage du fichier wav ne marche seulement si il y a un espace dans votre phrase. Donc si vous voulez decoder un mot, mettez un espace a la fin de celui ci sil vous plait. 
+Ce projet est un programme C++ qui encode et décode des messages en code Morse à partir d’une phrase ou d’un fichier audio WAV.
+
+Le programme permet de :
+
+Encoder une phrase en Morse (-- ..)
+
+Vérifier que le décodage correspond à la phrase initiale
+
+Générer un fichier .wav contenant le message Morse
+
+Lire un fichier .wav et décoder la chaîne Morse
+
+⚠️ Limitation : le décodage depuis un fichier WAV fonctionne uniquement si la phrase contient au moins un espace. Pour un mot seul, ajoutez un espace à la fin.
+
+##Fonctionnalités
+
+Texte → Morse → texte
+
+Génération de fichier audio .wav
+
+Décodage depuis fichier audio .wav
+
+Vérification de la correspondance phrase initiale ↔ phrase décodée
